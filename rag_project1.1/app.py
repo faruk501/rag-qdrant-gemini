@@ -16,7 +16,7 @@ except RuntimeError:
     
     
 # 🔑 Configuración de API Keys y Qdrant
-GOOGLE_API_KEY = "AIzaSyCw9VzUFhWWadmurQ47Qz-6p4JzaF6zGhU"
+GOOGLE_API_KEY = "AIzaSyAGartUrEQ36t4CkmI1lZVvMragPuxcwkE"
 QDRANT_URL = "https://6b3a9368-b08f-4d67-a6d3-3aa89b0ba118.europe-west3-0.gcp.cloud.qdrant.io"
 QDRANT_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.lSzwJpSV-M-rYJFY5OLvwphM3iVln_z74IkawrG1ya8"
 
@@ -135,3 +135,4 @@ if st.session_state.history:
         st.write(f"**Q{i}:** {item['q']}")
         st.write(f"📝 {item['a']}")
         st.write("---")
+
