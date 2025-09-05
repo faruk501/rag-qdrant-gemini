@@ -22,7 +22,7 @@ Respuesta en español:
 """
 
 # API key visible SOLO para pruebas
-GOOGLE_API_KEY = "AIzaSyCw9VzUFhWWadmurQ47Qz-6p4JzaF6zGhU"
+GOOGLE_API_KEY = "AIzaSyAGartUrEQ36t4CkmI1lZVvMragPuxcwkE"
 
 
 def query_rag(query_text: str):
